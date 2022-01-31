@@ -44,8 +44,8 @@ body {
     text-align: end;
 }
 .time-zone {
-    font-size: 3rem;
-    font-weight: 100;
+    font-size: 2.5rem;
+    font-weight: 200;
     text-shadow: .15rem .15rem .1rem rgba(24, 24, 27, .8);
 }
 .country {
@@ -147,6 +147,8 @@ body {
     width: fit-content;
     color: whitesmoke;
     text-align: center;
+    font-weight: 100;
+    text-transform: capitalize;
 }
 #footer {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -230,7 +232,7 @@ body {
         font-size: 2.25rem;
     }
     .country {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .other-info {
         margin-top: 5rem;
@@ -251,5 +253,10 @@ body {
         bottom: 3.5rem;
         left: 16.5rem;
         font-size: 1.65rem;
+    }
+    .place-container {
+        position: absolute;
+        right: 1.5rem;
+        margin-top: 1rem;
     }
 }
