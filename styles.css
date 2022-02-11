@@ -250,7 +250,7 @@ body {
         text-align: center;
     }
     #footer {
-        bottom: -2rem;
+        bottom: -.125rem;
         left: 16.5rem;
         font-size: 1.65rem;
     }
